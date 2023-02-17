@@ -21,6 +21,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.nav-link {
+    line-height: var(--line-height);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -46,6 +50,9 @@ body {
     background-color: var(--bg-colour-dark);
 }
 
+.resume-download {
+    cursor: pointer
+}
 button {
     background-color: #a3be8c;
     border: none;
