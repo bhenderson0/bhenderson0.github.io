@@ -261,7 +261,7 @@ footer {
         left: 10%;
         width: 80%;
         text-align: center;
-        transform: translateX(120%);
+        transform: translateX(-120%);
         transition: transform 0.2s ease-in;
     }
     nav ul li: {
