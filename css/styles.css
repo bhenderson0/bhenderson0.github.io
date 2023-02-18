@@ -95,6 +95,7 @@ nav h1 {
 }
 
 nav a {
+    padding: 0 0.4rem 0 0.4rem;
     color: var(--primary-colour-light);
     transition: var(--transition);
 }
@@ -149,6 +150,8 @@ nav ul li {
 }
 
 .top-img-div {
+    max-width: 100%;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -250,7 +253,7 @@ footer {
         padding: 1.5rem 1rem;
     }
     nav ul {
-        height: 25%;
+        padding-bottom: 1.25rem;
         position: fixed;
         background-color: var(--bg-colour-dark);
         flex-direction: column;
@@ -261,11 +264,17 @@ footer {
         transform: translateX(120%);
         transition: transform 0.2s ease-in;
     }
-  nav ul li: {
-      margin: 8px;
-  }
-  .burger-label {
-      display: block;
-  }
+    nav ul li: {
+        margin: 8px;
+    }
+    .burger-label {
+        display: block;
+    }
+    .summary {
+        padding: 2rem;
+    }
+    .projects-container {
+        display: grid;
+    }
 }
 
