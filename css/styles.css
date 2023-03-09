@@ -172,9 +172,16 @@ nav ul li {
     padding: 0.3rem 0;
 }
 
-.experience {
-    width: 60rem;
-    padding: 0.625rem;
+.job-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-section {
+    width: 48%;
+    border: 2px solid var(--primary-colour-light);
+    padding: 1rem;
+    background-color: #3b4252;
 }
 
 .skills {
